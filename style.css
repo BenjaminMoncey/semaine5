@@ -85,7 +85,7 @@ h2
 	}
 }
 
-.experience, .competence, .formation
+.experience, .ambition, .formation
 	{
 		width: 31%;
 		position: relative;
@@ -140,10 +140,10 @@ iframe
 		}
 	}
 	
-.mailing
+._mail
 	{
 		vertical-align: top;
-		margin-left:30px;
+		margin:30px;
 	}
 	
 a:link {
