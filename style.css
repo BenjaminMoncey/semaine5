@@ -1,0 +1,158 @@
+@font-face
+	{
+		font-family: 'Cabin-Regular';
+		src: url('Cabin-Regular.otf');
+	}
+	
+header
+	{
+		background: url("images/ecailles_@2X.png") fixed;
+		min-height: 180px;
+	}
+
+.photo
+	{
+		float: left;
+		display: inline-block;
+		margin: 0px;
+		padding-right: 10px;
+	}
+	
+*
+	{
+		font-family: Cabin-Regular, Arial, Sans-serif;
+	}	
+
+main
+	{
+		
+		border: 3px black solid;
+		border-radius: 15px;
+		background: url("images/agsquare.png") fixed;
+	}
+	
+@media screen and (max-width: 1024px)
+
+	{
+		main
+		{
+			margin-right: 5px;
+		}
+	}
+
+
+	
+h1, header p
+	{
+		text-align: center;
+		display: inline-block;
+	}
+
+
+
+	
+h2
+	{
+		padding: 3px;
+		text-align: center;
+		color: blue;
+		width: 200px;
+
+	}
+
+@media screen and (max-width: 1024px)
+{
+	h2
+	{
+		font-size: 1.2em;
+		padding: 0px;
+	}
+}
+
+.conteneur
+{
+	max-width: 900px;
+	margin: 15px;
+	padding: 10px;
+}
+
+@media screen and (max-width: 1024px)
+{
+	.conteneur
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+.experience, .competence, .formation
+	{
+		width: 31%;
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		text-align: justify;
+		padding:10px;
+	}
+
+@media screen and (max-width: 1024px)
+{
+	.experience, .competence, .formation
+		{
+			width: auto;
+			display: block;
+		}
+}
+
+li
+	{
+		list-style-type:circle;
+	}
+
+@media screen and (max-width: 1024px)
+{
+	li
+	{
+		font-size:0.9em;
+	}
+}
+
+footer
+	{
+		background: url("images/gray_jean.png") fixed;
+		width: 100%;
+	}
+	
+iframe
+	{
+		width: 50%;
+
+		display: inline-block;
+		padding:10px;
+	}
+
+@media screen and (max-width: 1024px)
+	{
+		iframe
+		{
+			min-width: 350px;
+			display: block;
+		}
+	}
+	
+.mailing
+	{
+		vertical-align: top;
+		margin-left:30px;
+	}
+	
+a:link {
+  text-decoration: none;
+  color: #003399;
+}
+
+a:hover {
+  text-decoration: none;
+  background: #003399;
+  color: white;
+}
