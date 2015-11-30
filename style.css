@@ -6,7 +6,7 @@
 	
 header
 	{
-		background: url("images/ecailles_@2X.png") fixed;
+		background: url("images/binding_dark.png") fixed;
 		min-height: 180px;
 	}
 
@@ -21,11 +21,12 @@ header
 *
 	{
 		font-family: Cabin-Regular, Arial, Sans-serif;
+		color: white;
 	}	
 
 main
 	{
-		background: url("images/agsquare.png") fixed;
+		background: url("images/black_mamba.png") fixed;
 	}
 	
 h1, header p
@@ -38,7 +39,7 @@ h2
 	{
 		padding: 3px;
 		text-align: center;
-		color: blue;
+		color: #669999;
 		width: 200px;
 	}
 
@@ -66,7 +67,7 @@ li
 
 footer
 	{
-		background: url("images/gray_jean.png") fixed;
+		background: url("images/txture.png") fixed;
 		width: 100%;
 	}
 	
@@ -86,23 +87,19 @@ footer div p
 	
 a:link {
   text-decoration: none;
-  color: #003399;
+  color: #669999;
 }
 
 a:hover {
   text-decoration: none;
-  background: #003399;
+  background: #669999;
   color: white;
 }
 
 @media screen and (max-width: 1024px)
 
 	{
-		main
-		{
-			margin-right: 5px;
-		}
-		
+	
 		h2
 		{
 			font-size: 1.2em;
