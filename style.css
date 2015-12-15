@@ -50,7 +50,7 @@ h2
 	padding: 10px;
 }
 
-.experience, .ambition, .formation
+section
 	{
 		width: 31%;
 		position: relative;
@@ -111,7 +111,7 @@ a:hover {
 			padding: 0px;
 		}
 		
-		.experience, .ambition, .formation
+		section
 		{
 			width: auto;
 			display: block;
