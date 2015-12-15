@@ -45,19 +45,21 @@ h2
 
 .conteneur
 {
-	max-width: 900px;
+	max-width: 960px;
+	width: 100%;
 	margin: 15px;
 	padding: 10px;
+	margin-left:auto;
+	margin-right: auto;
 }
 
 section
 	{
-		width: 31%;
+		width: 33%;
 		position: relative;
 		display: inline-block;
 		vertical-align: top;
 		text-align: justify;
-		padding:10px;
 	}
 
 li
